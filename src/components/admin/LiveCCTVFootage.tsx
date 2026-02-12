@@ -8,8 +8,8 @@ const LiveCCTVFootage = () => {
 
   // We assign the streamUrl to whichever camera we want to be the "Active AI" camera
   const [cameras, setCameras] = useState([
-    { id: 1, name: 'Main Entrance - North', location: 'Gate A', streamUrl: 'https://park-prabandh-backend.onrender.com/video_feed_1', isAiActive: true },
-    { id: 2, name: 'Exit Ramp - South', location: 'Gate B', streamUrl: 'https://park-prabandh-backend.onrender.com/video_feed_2', isAiActive: false },
+    { id: 1, name: 'Main Entrance - North', location: 'Gate A', streamUrl: 'http://localhost:5000/video_feed_1', isAiActive: true },
+    { id: 2, name: 'Exit Ramp - South', location: 'Gate B', streamUrl: 'http://localhost:5000/video_feed_2', isAiActive: false },
     { id: 3, name: 'Level 1 - Section C', location: 'Internal', streamUrl: 'https://images.unsplash.com/photo-1590674852885-ce045029e8c7?w=800', isAiActive: false },
     { id: 4, name: 'VIP Parking Area', location: 'Internal', streamUrl: 'https://images.unsplash.com/photo-1570126128862-da230999f1c9?w=800', isAiActive: false },
   ]);
